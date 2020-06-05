@@ -1,0 +1,163 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+   /* position: relative; */
+}
+.fa-user,.fa-shopping-cart{
+    font-size: 32px !important ;
+}
+.nav-link{
+    font-size: 20px !important;
+}
+
+.navbar{
+    background-color: blueviolet !important;
+}
+
+   
+
+.nav-item{
+    font-size: 1.5em;
+    color: blueviolet
+    !important;
+    
+
+}
+img{
+    background-color:white;
+}
+.nav-link{
+    color:white !important;
+}
+.nav-link:hover {
+    background-color: gainsboro;
+    text-align: center;
+     border-radius: 15px 50px !important;
+     padding: 10px;
+    color:black !important;
+}
+.navbar-text{
+    text-align: center !important;
+}
+marquee{
+    
+    background-color: blueviolet ;
+    color:white;
+    margin:10px;
+    padding: 5px;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up
+{
+    font-size:50px !important;
+    margin:10px;
+}
+.card1,.card2,.card3{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    box-shadow: 2px 4px 5px grey;
+    margin-top: 10px;
+}
+h3{
+    color:blueviolet;
+}
+.maincard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width:100%;
+}
+}
+.card{
+    width:200px;
+    height: 200px;
+
+}
+.btn-primary{
+    width:100%;
+}
+.arrivals{
+    margin-top: 30px;
+}
+.heading
+{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.card{
+    width:200px;
+    height:auto !important;
+    margin-bottom: 5px;
+}
+.heading>h1{
+    text-shadow: 2px 2px 4px blueviolet;
+}
+
+del{
+color:grey;
+}
+
+.icon > div > h3{
+    color:blueviolet;
+    
+    display: flex;
+}
+.fa-facebook,.fa-twitter,.fa-instagram,.fa-youtube,.fa-cc-paypal,.fa-cc-mastercard,.fa-cc-visa{
+font-size: 30px !important;
+
+}
+
+ fieldset{
+    border-radius: 5px;
+}
+form{
+  margin:50px; 
+  padding:50px;   
+} 
+h1{
+    text-align: center;
+    padding: 10px;
+    margin-top:20px ;
+}
+.footer{
+    background-color: black;
+    margin-top: 20px;
+}
+.head > h2{
+    color:white;
+    text-decoration:underline green;
+    text-transform: lowercase;
+}
+.symbols{
+    font-size: 40px;
+    color:white;
+    margin-bottom: 2em;
+}
+.secfooter{
+
+    background-color:white;
+}
+.head{
+    margin:10px;
+}
+.head1{
+    color: white;
+    text-align: center;
+    
+}
+.fa-copyright{
+    margin-bottom: 20px;
+}
+.btn-primary{
+    background-color: blueviolet;
+}
